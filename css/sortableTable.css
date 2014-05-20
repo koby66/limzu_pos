@@ -1,0 +1,88 @@
+
+
+/**************************************************************
+
+	Sortable Table
+	v 1.4
+
+**************************************************************/
+
+table.datatables {
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+th.datatables {
+	background-color: #eee;
+	background: #eee url(/images/tables/icon-table-sort.png) no-repeat 2px 8px;
+	padding: 4px 4px 4px 14px;
+	font-family: Arial; 
+	font-size: 10pt;
+}
+
+tr.datatables {
+	background-color: #eee;
+	padding: 4px;
+}
+tr.altRow.datatables {
+	background-color: #fff;
+}
+
+td.datatables.datatables {
+	padding: 0 2px;
+	font-family: Arial; 
+	font-size: 8pt;
+}
+
+.rightAlign.datatables {
+	text-align: right;
+}
+
+
+
+.sortedASC.datatables {
+	background: url(/images/tables/icon-table-sort-asc.png) no-repeat 2px 4px #eee;
+}
+
+.sortedDESC.datatables {
+	background: url(/images/tables/icon-table-sort-desc.png) no-repeat 2px 10px #eee;
+}
+
+.tableHeaderOver {
+	cursor: pointer;
+	color: #b90404;
+}
+
+
+/*tr.selected {
+	background-color: gold;
+	color: #fff;
+}*/
+
+tr.over.datatables {
+	background-color: #b90404;
+	color: #fff;
+	cursor: pointer;
+}
+
+tr.hide.datatables {
+	display: none;
+}
+
+/***************************/
+.tableFilter.datatables {
+	border: 1px solid #ccc;
+	padding: 2px;
+	margin: 5px 0 10px 0;
+}
+
+.tableFilter input.datatables {
+	border: 1px solid #ccc;
+}
+
+.tableFilter select.datatables {
+	border: 1px solid #ccc;
+}
+
+
+/*************************************************************/
